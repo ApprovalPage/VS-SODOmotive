@@ -465,19 +465,19 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_01h250.jpg", id:"_01h250"},
-		{src:"images/_02h250.jpg", id:"_02h250"},
-		{src:"images/_03h250.jpg", id:"_03h250"},
-		{src:"images/_04h250.jpg", id:"_04h250"},
-		{src:"images/_05h250.jpg", id:"_05h250"},
-		{src:"images/_06h250.jpg", id:"_06h250"},
-		{src:"images/_07h250.jpg", id:"_07h250"},
-		{src:"images/_08h250.jpg", id:"_08h250"},
-		{src:"images/_09h250.jpg", id:"_09h250"},
-		{src:"images/_10h250.jpg", id:"_10h250"},
-		{src:"images/_11h250.jpg", id:"_11h250"},
-		{src:"images/_12h250.jpg", id:"_12h250"},
-		{src:"images/VISITSEATTLEtvlogotype.png", id:"VISITSEATTLEtvlogotype"}
+		{src:"images/_01h250.jpg?1687985658581", id:"_01h250"},
+		{src:"images/_02h250.jpg?1687985658581", id:"_02h250"},
+		{src:"images/_03h250.jpg?1687985658581", id:"_03h250"},
+		{src:"images/_04h250.jpg?1687985658581", id:"_04h250"},
+		{src:"images/_05h250.jpg?1687985658581", id:"_05h250"},
+		{src:"images/_06h250.jpg?1687985658581", id:"_06h250"},
+		{src:"images/_07h250.jpg?1687985658581", id:"_07h250"},
+		{src:"images/_08h250.jpg?1687985658581", id:"_08h250"},
+		{src:"images/_09h250.jpg?1687985658581", id:"_09h250"},
+		{src:"images/_10h250.jpg?1687985658581", id:"_10h250"},
+		{src:"images/_11h250.jpg?1687985658581", id:"_11h250"},
+		{src:"images/_12h250.jpg?1687985658581", id:"_12h250"},
+		{src:"images/VISITSEATTLEtvlogotype.png?1687985658581", id:"VISITSEATTLEtvlogotype"}
 	],
 	preloads: []
 };
