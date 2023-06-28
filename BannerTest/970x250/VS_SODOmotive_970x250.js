@@ -2,7 +2,10 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"VS_SODOmotive_970x250_atlas_P_1", frames: [[0,0,1452,259]]},
+		{name:"VS_SODOmotive_970x250_atlas_NP_1", frames: [[0,0,573,250],[575,0,573,250],[1150,0,573,250],[0,252,573,250],[575,252,573,250],[1150,252,573,250],[0,504,573,250],[575,504,573,250],[1150,504,573,250],[0,756,573,250],[575,756,573,250],[1150,756,573,250]]}
+];
 
 
 (lib.AnMovieClip = function(){
@@ -26,81 +29,94 @@ lib.ssMetadata = [];
 
 
 (lib._01h250 = function() {
-	this.initialize(img._01h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._02h250 = function() {
-	this.initialize(img._02h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._03h250 = function() {
-	this.initialize(img._03h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._04h250 = function() {
-	this.initialize(img._04h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._05h250 = function() {
-	this.initialize(img._05h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._06h250 = function() {
-	this.initialize(img._06h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._07h250 = function() {
-	this.initialize(img._07h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._08h250 = function() {
-	this.initialize(img._08h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._09h250 = function() {
-	this.initialize(img._09h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._10h250 = function() {
-	this.initialize(img._10h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._11h250 = function() {
-	this.initialize(img._11h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib._12h250 = function() {
-	this.initialize(img._12h250);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,573,250);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_NP_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
 
 
 (lib.VISITSEATTLEtvlogotype = function() {
-	this.initialize(img.VISITSEATTLEtvlogotype);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1452,259);
+	this.initialize(ss["VS_SODOmotive_970x250_atlas_P_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
 
 
 // stage content:
@@ -465,19 +481,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_01h250.jpg?1687985658581", id:"_01h250"},
-		{src:"images/_02h250.jpg?1687985658581", id:"_02h250"},
-		{src:"images/_03h250.jpg?1687985658581", id:"_03h250"},
-		{src:"images/_04h250.jpg?1687985658581", id:"_04h250"},
-		{src:"images/_05h250.jpg?1687985658581", id:"_05h250"},
-		{src:"images/_06h250.jpg?1687985658581", id:"_06h250"},
-		{src:"images/_07h250.jpg?1687985658581", id:"_07h250"},
-		{src:"images/_08h250.jpg?1687985658581", id:"_08h250"},
-		{src:"images/_09h250.jpg?1687985658581", id:"_09h250"},
-		{src:"images/_10h250.jpg?1687985658581", id:"_10h250"},
-		{src:"images/_11h250.jpg?1687985658581", id:"_11h250"},
-		{src:"images/_12h250.jpg?1687985658581", id:"_12h250"},
-		{src:"images/VISITSEATTLEtvlogotype.png?1687985658581", id:"VISITSEATTLEtvlogotype"}
+		{src:"images/VS_SODOmotive_970x250_atlas_P_1.png?1687986393025", id:"VS_SODOmotive_970x250_atlas_P_1"},
+		{src:"images/VS_SODOmotive_970x250_atlas_NP_1.jpg?1687986393025", id:"VS_SODOmotive_970x250_atlas_NP_1"}
 	],
 	preloads: []
 };
